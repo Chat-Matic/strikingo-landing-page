@@ -1493,6 +1493,7 @@ section,
 }
 
 .portfolio .portfolio-content {
+  border-radius: 20px;
   position: relative;
   overflow: hidden;
 }
@@ -1512,12 +1513,14 @@ section,
 }
 
 .portfolio .portfolio-content .portfolio-info h4 {
+  border-radius: 10px;
   font-size: 14px;
   padding: 5px 10px;
   font-weight: 400;
   color: #ffffff;
   display: inline-block;
-  background-color: var(--accent-color);
+  background-image: linear-gradient(to right, blue , purple);
+
 }
 
 .portfolio .portfolio-content .portfolio-info p {
